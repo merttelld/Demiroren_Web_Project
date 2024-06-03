@@ -1,0 +1,182 @@
+src\test\java\com\demiroren\base\BaseTest.java:8: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src\test\java\com\demiroren\base\BaseTest.java:9: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src\test\java\com\demiroren\base\BaseTest.java:10: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeOptions;
+                                 ^
+src\test\java\com\demiroren\base\BaseTest.java:11: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.WebDriverWait;
+                                     ^
+src\test\java\com\demiroren\base\BaseTest.java:29: error: cannot find symbol
+    public static WebDriver driver;
+                  ^
+  symbol:   class WebDriver
+  location: class BaseTest
+src\test\java\com\demiroren\base\BaseTest.java:30: error: cannot find symbol
+    protected static WebDriverWait webDriverWait;
+                     ^
+  symbol:   class WebDriverWait
+  location: class BaseTest
+src\test\java\com\demiroren\steps\StepImplementation.java:6: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src\test\java\com\demiroren\steps\StepImplementation.java:7: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.ElementNotInteractableException;
+                          ^
+src\test\java\com\demiroren\steps\StepImplementation.java:8: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.JavascriptExecutor;
+                          ^
+src\test\java\com\demiroren\steps\StepImplementation.java:9: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebElement;
+                          ^
+src\test\java\com\demiroren\steps\StepImplementation.java:10: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.ExpectedConditions;
+                                     ^
+src\test\java\com\demiroren\steps\StepImplementation.java:11: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.WebDriverWait;
+                                     ^
+src\test\java\com\demiroren\steps\StepImplementation.java:19: error: package org.junit.jupiter.api does not exist
+import static org.junit.jupiter.api.Assertions.assertTrue;
+                                   ^
+src\test\java\com\demiroren\steps\StepImplementation.java:19: error: static import only from classes and interfaces
+import static org.junit.jupiter.api.Assertions.assertTrue;
+^
+src\test\java\com\demiroren\steps\StepImplementation.java:31: error: cannot find symbol
+    public WebElement findElementWithKey(String key){
+           ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:35: error: cannot find symbol
+    WebElement findElement(String key) {
+    ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:46: error: cannot find symbol
+    List<WebElement> findElements(String key) {
+         ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:50: error: cannot find symbol
+    public By getElementInfoToBy(ElementInfo elementInfo) {
+           ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:96: error: cannot find symbol
+    private void clickElement(WebElement element) {
+                              ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:116: error: cannot find symbol
+    public void clickXpath(By xpath){
+                           ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\com\demiroren\base\BaseTest.java:38: error: cannot find symbol
+        ChromeOptions options = new ChromeOptions();
+        ^
+  symbol:   class ChromeOptions
+  location: class BaseTest
+src\test\java\com\demiroren\base\BaseTest.java:38: error: cannot find symbol
+        ChromeOptions options = new ChromeOptions();
+                                    ^
+  symbol:   class ChromeOptions
+  location: class BaseTest
+src\test\java\com\demiroren\base\BaseTest.java:40: error: cannot find symbol
+        driver = new ChromeDriver(options);
+                     ^
+  symbol:   class ChromeDriver
+  location: class BaseTest
+src\test\java\com\demiroren\steps\StepImplementation.java:36: error: cannot find symbol
+        By infoParam = getElementInfoToBy(findElementInfoByKey(key));
+        ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:37: error: cannot find symbol
+        WebDriverWait webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(60));
+        ^
+  symbol:   class WebDriverWait
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:37: error: cannot find symbol
+        WebDriverWait webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(60));
+                                          ^
+  symbol:   class WebDriverWait
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:38: error: cannot find symbol
+        WebElement webElement = webDriverWait
+        ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:39: error: cannot find symbol
+                .until(ExpectedConditions.presenceOfElementLocated(infoParam));
+                       ^
+  symbol:   variable ExpectedConditions
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:40: error: cannot find symbol
+        ((JavascriptExecutor) driver).executeScript(
+          ^
+  symbol:   class JavascriptExecutor
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:51: error: cannot find symbol
+        By by = null;
+        ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:53: error: cannot find symbol
+            by = By.cssSelector(elementInfo.getValue());
+                 ^
+  symbol:   variable By
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:55: error: cannot find symbol
+            by = By.name(elementInfo.getValue());
+                 ^
+  symbol:   variable By
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:57: error: cannot find symbol
+            by = By.id(elementInfo.getValue());
+                 ^
+  symbol:   variable By
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:59: error: cannot find symbol
+            by = By.xpath(elementInfo.getValue());
+                 ^
+  symbol:   variable By
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:61: error: cannot find symbol
+            by = By.linkText(elementInfo.getValue());
+                 ^
+  symbol:   variable By
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:63: error: cannot find symbol
+            by = By.partialLinkText(elementInfo.getValue());
+                 ^
+  symbol:   variable By
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:71: error: cannot find symbol
+            WebElement webElement;
+            ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:72: error: cannot find symbol
+            List<WebElement> liste = findElements(key);
+                 ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:80: error: cannot find symbol
+        }catch (ElementNotInteractableException e) {
+                ^
+  symbol:   class ElementNotInteractableException
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:87: error: cannot find symbol
+        WebElement webElement = findElementWithKey(key);
+        ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\com\demiroren\steps\StepImplementation.java:140: error: cannot find symbol
+        assertTrue(containsText, "Expected text is not contained");
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class StepImplementation
+41 errors

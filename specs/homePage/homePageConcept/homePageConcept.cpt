@@ -1,0 +1,130 @@
+# Milliyet web sayfası açılır
+* Milliyet "https://www.milliyet.com.tr/" adresine git
+* "5" saniye kadar bekle
+* Frame'e odaklan "iFrame"
+* "3" saniye kadar bekle
+* Elementine tıkla "popupSkip"
+* "3" saniye kadar bekle
+* Frame'den çık ve varsayılan içeriğe dön
+
+# Gündem kategorisine tıklanır ve url kontrolü sağlanır
+* Elementine tıkla "agendaCategory"
+* "5" saniye kadar bekle
+* Yeni sekmeye odaklan
+* "2" saniye kadar bekle
+* Frame'e odaklan "iFrame"
+* "1" saniye kadar bekle
+* Elementine tıkla "popupSkip"
+* "3" saniye kadar bekle
+* Element "bigPictureSkip" varsa tıkla
+* "3" saniye kadar bekle
+* Su an ki URL "https://www.milliyet.com.tr/gundem" degerini iceriyor mu kontrol et
+* "3" saniye kadar bekle
+* Frame'den çık ve varsayılan içeriğe dön
+* "3" saniye kadar bekle
+* "rightOkButton" elementini kontrol et
+* Elementine tıkla "newsLink"
+* Bu key in "newsHeader" texti urlde var mı kontrol et
+* Secilen haberde status 200 code gorme
+* Frame'e odaklan "iFrame"
+* "3" saniye kadar bekle
+* Elementine tıkla "popupSkip"
+* "2" saniye kadar bekle
+* Element "bigPictureSkip" varsa tıkla
+* Geri dön ve varsayılan içeriğe dön
+* Frame'den çık ve varsayılan içeriğe dön
+* "2" saniye kadar bekle
+* Frame'e odaklan "iFrame"
+* "3" saniye kadar bekle
+* Elementine tıkla "popupSkip"
+* "2" saniye kadar bekle
+* Element "bigPictureSkip" varsa tıkla
+* Frame'den çık ve varsayılan içeriğe dön
+* "1" kere "rightOkButton" elemente tıklama
+* "1" saniye kadar bekle
+* Elementine tıkla "newsLink"
+* "2" saniye kadar bekle
+* Bu key in "newsHeader" texti urlde var mı kontrol et
+* Secilen haberde status 200 code gorme
+* Frame'e odaklan "iFrame"
+* "3" saniye kadar bekle
+* Elementine tıkla "popupSkip"
+* "2" saniye kadar bekle
+* Element "bigPictureSkip" varsa tıkla
+* Geri dön ve varsayılan içeriğe dön
+* "1" saniye kadar bekle
+* Frame'e odaklan "iFrame"
+* "3" saniye kadar bekle
+* Elementine tıkla "popupSkip"
+* "2" saniye kadar bekle
+* Element "bigPictureSkip" varsa tıkla
+* Frame'den çık ve varsayılan içeriğe dön
+* "2" kere "rightOkButton" elemente tıklama
+* Elementine tıkla "newsLink"
+* "2" saniye kadar bekle
+* Bu key in "newsHeader" texti urlde var mı kontrol et
+* Secilen haberde status 200 code gorme
+* Frame'e odaklan "iFrame"
+* "3" saniye kadar bekle
+* Elementine tıkla "popupSkip"
+* "2" saniye kadar bekle
+* Element "bigPictureSkip" varsa tıkla
+* Geri dön ve varsayılan içeriğe dön
+* "2" saniye kadar bekle
+* Frame'e odaklan "iFrame"
+* "3" saniye kadar bekle
+* Elementine tıkla "popupSkip"
+* "2" saniye kadar bekle
+* Element "bigPictureSkip" varsa tıkla
+* Frame'den çık ve varsayılan içeriğe dön
+* "3" kere "rightOkButton" elemente tıklama
+* Elementine tıkla "newsLink"
+* Bu key in "newsHeader" texti urlde var mı kontrol et
+* Secilen haberde status 200 code gorme
+* Frame'e odaklan "iFrame"
+* "3" saniye kadar bekle
+* Elementine tıkla "popupSkip"
+* "2" saniye kadar bekle
+* Element "bigPictureSkip" varsa tıkla
+* Geri dön ve varsayılan içeriğe dön
+* "2" saniye kadar bekle
+* Frame'e odaklan "iFrame"
+* "3" saniye kadar bekle
+* Elementine tıkla "popupSkip"
+* "2" saniye kadar bekle
+* Element "bigPictureSkip" varsa tıkla
+* Frame'den çık ve varsayılan içeriğe dön
+* "4" kere "rightOkButton" elemente tıklama
+* Elementine tıkla "newsLink"
+* Bu key in "newsHeader" texti urlde var mı kontrol et
+* Secilen haberde status 200 code gorme
+* Frame'e odaklan "iFrame"
+* "3" saniye kadar bekle
+* Elementine tıkla "popupSkip"
+* "2" saniye kadar bekle
+* Element "bigPictureSkip" varsa tıkla
+* Geri dön ve varsayılan içeriğe dön
+* "2" saniye kadar bekle
+* Frame'e odaklan "iFrame"
+* "3" saniye kadar bekle
+* Elementine tıkla "popupSkip"
+* "2" saniye kadar bekle
+* Element "bigPictureSkip" varsa tıkla
+* "newsNumber" elementini kontrol et
+* Elementine tıkla "newsNumber"
+* Bu key in "newsHeader" texti urlde var mı kontrol et
+* Secilen haberde status 200 code gorme
+* Frame'e odaklan "iFrame"
+* "3" saniye kadar bekle
+* Elementine tıkla "popupSkip"
+* "2" saniye kadar bekle
+* Element "bigPictureSkip" varsa tıkla
+* Geri dön ve varsayılan içeriğe dön
+* "1" saniye kadar bekle
+* Frame'e odaklan "iFrame"
+* "3" saniye kadar bekle
+* Elementine tıkla "popupSkip"
+* "2" saniye kadar bekle
+* Element "bigPictureSkip" varsa tıkla
+* Frame'den çık ve varsayılan içeriğe dön
+* Haber numaraları ile haberlere tıklama "newsNumber"

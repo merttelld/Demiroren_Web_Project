@@ -1,0 +1,35 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1195milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1195"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 50948"}
+{"logLevel":"info","message":"Listening on port:50948"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.goToUrl' and 'com.demiroren.steps.StepImplementation.goToUrl'"}
+{"logLevel":"debug","message":"Found Milliyet {} adresine git in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.clickElement' and 'com.demiroren.steps.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine t?kla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.clickXpath' and 'com.demiroren.steps.StepImplementation.clickXpath'"}
+{"logLevel":"debug","message":"Found Elemente xpath ile t?kla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.getElementWithKeyClickIfExists' and 'com.demiroren.steps.StepImplementation.getElementWithKeyClickIfExists'"}
+{"logLevel":"debug","message":"Found Element {} varsa t?kla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.clickXpath' and 'com.demiroren.steps.StepImplementation.clickXpath'"}
+{"logLevel":"debug","message":"Found {} xpath ile t?kla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.waitWithSecond' and 'com.demiroren.steps.StepImplementation.waitWithSecond'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tElemente xpath ile t?kla {} : public void clickXpath(By xpath)"}
+{"logLevel":"debug","message":"\tElement {} varsa t?kla : public void getElementWithKeyClickIfExists(String key)"}
+{"logLevel":"debug","message":"\t{} xpath ile t?kla : public void clickXpath(String xpath)"}
+{"logLevel":"debug","message":"\tMilliyet {} adresine git : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitWithSecond(?nt Key) throws InterruptedException"}
+{"logLevel":"debug","message":"\tElementine t?kla {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

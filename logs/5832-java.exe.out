@@ -1,0 +1,56 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 1802milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1802"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 59975"}
+{"logLevel":"info","message":"Listening on port:59975"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.goToUrl' and 'com.demiroren.steps.StepImplementation.goToUrl'"}
+{"logLevel":"debug","message":"Found Milliyet {} addresine git in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.clickElement' and 'com.demiroren.steps.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine t?kla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.waitWithSecond' and 'com.demiroren.steps.StepImplementation.waitWithSecond'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tMilliyet {} addresine git : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitWithSecond(?nt Key) throws InterruptedException"}
+{"logLevel":"debug","message":"\tElementine t?kla {} : public void clickElement(String key)"}
+May 30, 2024 11:55:06 ÖÖ org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 125
+May 30, 2024 11:55:06 ÖÖ org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 125.0.6422.113. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+{"logLevel":"debug","message":"Executing 'Milliyet {} addresine git' using 'class com.demiroren.steps.StepImplementation.goToUrl"}
+elementValues.json Dosyas?nda 1 Adet element de?eri bulundu.
+https://www.milliyet.com.tr/ adresine gidiliyor.
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.demiroren.steps.StepImplementation.waitWithSecond"}
+{"logLevel":"debug","message":"Executing 'Elementine t?kla {}' using 'class com.demiroren.steps.StepImplementation.clickElement"}
+May 30, 2024 11:55:15 ÖÖ org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

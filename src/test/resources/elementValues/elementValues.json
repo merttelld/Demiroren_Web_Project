@@ -1,0 +1,52 @@
+[
+  {
+    "key": "popupSkip",
+    "value": "//div[@class='btn-notification']",
+    "type": "xpath"
+  },
+  {
+    "key": "agendaCategory",
+    "value": "//a[@title='Gündem']",
+    "type": "xpath"
+  },
+  {
+    "key": "iFrame",
+    "value": "[src='https://www.milliyet.com.tr/netmera_worker.html#origin=https%3A%2F%2Fwww.milliyet.com.tr&wSrc=https%3A%2F%2Fntm.netmera-web.com%2Fwsdk2%2Ffbox.js%3Fv%3D4.2.28&cb_msg=fbox_ready']",
+    "type": "css"
+  },
+  {
+    "key": "pageHeaderName",
+    "value": "//em[@class='breadcrumb__text']",
+    "type": "xpath"
+  },
+  {
+    "key": "bigPictureSkip",
+    "value": "//div[@id='intclose']",
+    "type": "xpath"
+  },
+  {
+    "key": "agendaCategoryNews",
+    "value": "//div[@class='col-6 col-lg-12']/a/figure[@class='category-card__figure']",
+    "type": "xpath"
+  },
+  {
+    "key": "rightOkButton",
+    "value": "//i[@class='fas fa-chevron-right']",
+    "type": "xpath"
+  },
+  {
+    "key": "newsLink",
+    "value": "//div[@class='swiper-slide swiper-slide-active']/a[@class='cat-slider__link']/div[@class='cat-slider__image-wrapper']/img[@class='cat-slider__image']",
+    "type": "xpath"
+  },
+  {
+    "key": "newsNumber",
+    "value": "//a[contains(@class, 'swiper-pagination-link')]",
+    "type": "xpath"
+  },
+  {
+    "key": "newsHeader",
+    "value": "//h1[contains(@class, 'news-detail-title')]",
+    "type": "xpath"
+  }
+]

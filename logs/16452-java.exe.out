@@ -1,0 +1,117 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1188milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1188"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 65464"}
+{"logLevel":"info","message":"Listening on port:65464"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.clickElement' and 'com.demiroren.steps.StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine t?kla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.checkElement' and 'com.demiroren.steps.StepImplementation.checkElement'"}
+{"logLevel":"debug","message":"Found {} elementini kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.chromeFocusFrameWithNumber' and 'com.demiroren.steps.StepImplementation.chromeFocusFrameWithNumber'"}
+{"logLevel":"debug","message":"Found Frame'e odaklan {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.chromeFocusNewTabWithNumber' and 'com.demiroren.steps.StepImplementation.chromeFocusNewTabWithNumber'"}
+{"logLevel":"debug","message":"Found Yeni sekmeye odaklan in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.navigateBackAndDefaultContent' and 'com.demiroren.steps.StepImplementation.navigateBackAndDefaultContent'"}
+{"logLevel":"debug","message":"Found Geri dön ve varsay?lan içeri?e dön in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.scrollToElementWithJs' and 'com.demiroren.steps.StepImplementation.scrollToElementWithJs'"}
+{"logLevel":"debug","message":"Found {} alan?na js ile kayd?r in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.getElementWithKeyClickIfExists' and 'com.demiroren.steps.StepImplementation.getElementWithKeyClickIfExists'"}
+{"logLevel":"debug","message":"Found Element {} varsa t?kla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.goToUrl' and 'com.demiroren.steps.StepImplementation.goToUrl'"}
+{"logLevel":"debug","message":"Found Milliyet {} adresine git in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.checkElementContainsText' and 'com.demiroren.steps.StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} degerini iceriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.checkURLContainsRepeat' and 'com.demiroren.steps.StepImplementation.checkURLContainsRepeat'"}
+{"logLevel":"debug","message":"Found Su an ki URL {} degerini iceriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.clickXpath' and 'com.demiroren.steps.StepImplementation.clickXpath'"}
+{"logLevel":"debug","message":"Found Elemente xpath ile t?kla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.chromeSwitchBackToDefaultContent' and 'com.demiroren.steps.StepImplementation.chromeSwitchBackToDefaultContent'"}
+{"logLevel":"debug","message":"Found Frame'den ç?k ve varsay?lan içeri?e dön in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.arkaArkayaElementeT?klat' and 'com.demiroren.steps.StepImplementation.arkaArkayaElementeT?klat'"}
+{"logLevel":"debug","message":"Found {} kere {} elemente t?klama in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.demiroren.steps.StepImplementation.waitWithSecond' and 'com.demiroren.steps.StepImplementation.waitWithSecond'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tGeri dön ve varsay?lan içeri?e dön : public void navigateBackAndDefaultContent()"}
+{"logLevel":"debug","message":"\t{} elementini kontrol et : public void checkElement(String key)"}
+{"logLevel":"debug","message":"\tMilliyet {} adresine git : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\t{} elementi {} degerini iceriyor mu kontrol et : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\tFrame'e odaklan {} : public void chromeFocusFrameWithNumber(String key)"}
+{"logLevel":"debug","message":"\tElemente xpath ile t?kla {} : public void clickXpath(By xpath)"}
+{"logLevel":"debug","message":"\tElement {} varsa t?kla : public void getElementWithKeyClickIfExists(String key)"}
+{"logLevel":"debug","message":"\tFrame'den ç?k ve varsay?lan içeri?e dön : public void chromeSwitchBackToDefaultContent()"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitWithSecond(?nt Key) throws InterruptedException"}
+{"logLevel":"debug","message":"\tElementine t?kla {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tYeni sekmeye odaklan : public void chromeFocusNewTabWithNumber() throws InterruptedException"}
+{"logLevel":"debug","message":"\tSu an ki URL {} degerini iceriyor mu kontrol et : public void checkURLContainsRepeat(String text)"}
+{"logLevel":"debug","message":"\t{} alan?na js ile kayd?r : public void scrollToElementWithJs(String key)"}
+{"logLevel":"debug","message":"\t{} kere {} elemente t?klama : public void arkaArkayaElementeT?klat(?nt value, String key) throws InterruptedException"}
+Haz 01, 2024 2:06:28 ÖS org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 125
+Haz 01, 2024 2:06:28 ÖS org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 125.0.6422.113. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+{"logLevel":"debug","message":"Executing 'Milliyet {} adresine git' using 'class com.demiroren.steps.StepImplementation.goToUrl"}
+elementValues.json Dosyas?nda 9 Adet element de?eri bulundu.
+https://www.milliyet.com.tr/ adresine gidiliyor.
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.demiroren.steps.StepImplementation.waitWithSecond"}
+{"logLevel":"debug","message":"Executing 'Frame'e odaklan {}' using 'class com.demiroren.steps.StepImplementation.chromeFocusFrameWithNumber"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.demiroren.steps.StepImplementation.waitWithSecond"}
+{"logLevel":"debug","message":"Executing 'Elementine t?kla {}' using 'class com.demiroren.steps.StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.demiroren.steps.StepImplementation.waitWithSecond"}
+{"logLevel":"debug","message":"Executing 'Frame'den ç?k ve varsay?lan içeri?e dön' using 'class com.demiroren.steps.StepImplementation.chromeSwitchBackToDefaultContent"}
+{"logLevel":"debug","message":"Executing 'Elementine t?kla {}' using 'class com.demiroren.steps.StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.demiroren.steps.StepImplementation.waitWithSecond"}
+{"logLevel":"debug","message":"Executing 'Yeni sekmeye odaklan' using 'class com.demiroren.steps.StepImplementation.chromeFocusNewTabWithNumber"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.demiroren.steps.StepImplementation.waitWithSecond"}
+{"logLevel":"debug","message":"Executing 'Frame'e odaklan {}' using 'class com.demiroren.steps.StepImplementation.chromeFocusFrameWithNumber"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.demiroren.steps.StepImplementation.waitWithSecond"}
+{"logLevel":"debug","message":"Executing 'Elementine t?kla {}' using 'class com.demiroren.steps.StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.demiroren.steps.StepImplementation.waitWithSecond"}
+{"logLevel":"debug","message":"Executing 'Element {} varsa t?kla' using 'class com.demiroren.steps.StepImplementation.getElementWithKeyClickIfExists"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.demiroren.steps.StepImplementation.waitWithSecond"}
+{"logLevel":"debug","message":"Executing 'Su an ki URL {} degerini iceriyor mu kontrol et' using 'class com.demiroren.steps.StepImplementation.checkURLContainsRepeat"}
+https://www.milliyet.com.tr/gundem url'sini iceriyor.
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.demiroren.steps.StepImplementation.waitWithSecond"}
+{"logLevel":"debug","message":"Executing 'Frame'den ç?k ve varsay?lan içeri?e dön' using 'class com.demiroren.steps.StepImplementation.chromeSwitchBackToDefaultContent"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.demiroren.steps.StepImplementation.waitWithSecond"}
+{"logLevel":"debug","message":"Executing '{} elementini kontrol et' using 'class com.demiroren.steps.StepImplementation.checkElement"}
+sagOkTusu elementi bulundu.
+{"logLevel":"debug","message":"Executing 'Elementine t?kla {}' using 'class com.demiroren.steps.StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Su an ki URL {} degerini iceriyor mu kontrol et' using 'class com.demiroren.steps.StepImplementation.checkURLContainsRepeat"}
+https://www.milliyet.com.tr/gundem/kaldirimda-2-kisiyi-oldurdu-3-ay-sonra-tahliye-edildi-7135724 url'sini iceriyor.
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.demiroren.steps.StepImplementation.waitWithSecond"}
+{"logLevel":"debug","message":"Executing 'Geri dön ve varsay?lan içeri?e dön' using 'class com.demiroren.steps.StepImplementation.navigateBackAndDefaultContent"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.demiroren.steps.StepImplementation.waitWithSecond"}
+{"logLevel":"debug","message":"Executing '{} kere {} elemente t?klama' using 'class com.demiroren.steps.StepImplementation.arkaArkayaElementeT?klat"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.demiroren.steps.StepImplementation.waitWithSecond"}
+{"logLevel":"debug","message":"Executing 'Elementine t?kla {}' using 'class com.demiroren.steps.StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.demiroren.steps.StepImplementation.waitWithSecond"}
+{"logLevel":"debug","message":"Executing 'Su an ki URL {} degerini iceriyor mu kontrol et' using 'class com.demiroren.steps.StepImplementation.checkURLContainsRepeat"}
+https://www.milliyet.com.tr/gundem/hirsizin-rahatligi-kamerada-katlari-tek-tek-dolasip-begendigi-ayakkabilari-topladi-7135714 url'sini iceriyor.
+{"logLevel":"debug","message":"Executing 'Geri dön ve varsay?lan içeri?e dön' using 'class com.demiroren.steps.StepImplementation.navigateBackAndDefaultContent"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.demiroren.steps.StepImplementation.waitWithSecond"}
+{"logLevel":"debug","message":"Executing '{} kere {} elemente t?klama' using 'class com.demiroren.steps.StepImplementation.arkaArkayaElementeT?klat"}
+{"logLevel":"debug","message":"Executing 'Elementine t?kla {}' using 'class com.demiroren.steps.StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.demiroren.steps.StepImplementation.waitWithSecond"}
+{"logLevel":"debug","message":"Executing 'Su an ki URL {} degerini iceriyor mu kontrol et' using 'class com.demiroren.steps.StepImplementation.checkURLContainsRepeat"}
+https://www.milliyet.com.tr/gundem/son-dakika-ak-parti-kampi-basladi-cumhurbaskani-erdogandan-onemli-aciklamalar-7135713 url'sini iceriyor.
+{"logLevel":"debug","message":"Executing 'Geri dön ve varsay?lan içeri?e dön' using 'class com.demiroren.steps.StepImplementation.navigateBackAndDefaultContent"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.demiroren.steps.StepImplementation.waitWithSecond"}
+{"logLevel":"debug","message":"Executing '{} kere {} elemente t?klama' using 'class com.demiroren.steps.StepImplementation.arkaArkayaElementeT?klat"}
+{"logLevel":"debug","message":"Executing 'Elementine t?kla {}' using 'class com.demiroren.steps.StepImplementation.clickElement"}
+{"logLevel":"debug","message":"Executing 'Su an ki URL {} degerini iceriyor mu kontrol et' using 'class com.demiroren.steps.StepImplementation.checkURLContainsRepeat"}
+https://www.milliyet.com.tr/gundem/3-cocugunu-vahsice-olduren-babadan-piskin-savunma-serbest-birakilmami-istiyorum-7135711 url'sini iceriyor.
+{"logLevel":"debug","message":"Executing 'Geri dön ve varsay?lan içeri?e dön' using 'class com.demiroren.steps.StepImplementation.navigateBackAndDefaultContent"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class com.demiroren.steps.StepImplementation.waitWithSecond"}
+{"logLevel":"debug","message":"Executing '{} kere {} elemente t?klama' using 'class com.demiroren.steps.StepImplementation.arkaArkayaElementeT?klat"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
